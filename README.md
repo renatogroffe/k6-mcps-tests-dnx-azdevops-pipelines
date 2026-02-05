@@ -4,3 +4,30 @@ Exemplo de implementação de testes de validação com k6 para MCP Servers acio
 Extensão do k6 para MCP: https://github.com/grafana/xk6-mcp
 
 Package NuGet utilizado nos testes: https://www.nuget.org/packages/FakeDataMcpServer/
+
+Projeto que serviu de base para a geração deste package: https://github.com/renatogroffe/dotnet10-nuget-mcp-fakedata
+
+
+---
+
+## Resultados da execução dos testes
+
+Testes executados via pipeline (em ambiente Linux):
+
+![Execução do pipeline](img/k6-pipeline-01.png)
+
+Relatório HTML com resultados do k6 - Métricas:
+
+![Relatório HTML do k6 - parte 1](img/k6-pipeline-02.png)
+
+Relatório HTML com resultados do k6 - Detalhes da Execução:
+
+![Relatório HTML do k6 - parte 2](img/k6-pipeline-03.png)
+
+Relatório HTML com resultados do k6 - Validações/Checks:
+
+![Relatório HTML do k6 - parte 3](img/k6-pipeline-04.png)
+
+Resultados no formato Markdown:
+
+![Relatório Markdown com resultados do k6](img/k6-pipeline-05.png)
